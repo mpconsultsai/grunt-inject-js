@@ -1,12 +1,12 @@
 # grunt-inject-js v1.0.1
 
-[![npm version](https://badge.fury.io/js/grunt-inject-js.svg)](https://badge.fury.io/js/grunt-inject-js)
+[![npm version](https://img.shields.io/npm/v/grunt-inject-js.svg)](https://www.npmjs.com/package/grunt-inject-js)
 
 > Grunt task that allows for multiple js files to be injected into a file. Inspired by [grunt-inject](https://github.com/ChrisWren/grunt-inject)
 
 ## Getting Started
 
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+If you haven't used [Grunt](https://gruntjs.com/) before, be sure to check out the [Getting Started](https://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](https://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
 npm install grunt-inject-js --save-dev
@@ -23,7 +23,7 @@ grunt.loadNpmTasks('grunt-inject-js');
 ### Overview
 _Run this task with the `grunt injectjs` command._
 
-Task targets, files and options may be specified according to the Grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
+Task targets, files and options may be specified according to the Grunt [Configuring tasks](https://gruntjs.com/configuring-tasks) guide.
 
 The task is to allow for the injection of multiple javascript scripts into a document at defined places in the document. The use case arose when having to inject different third party
 analytics code at different locations.
@@ -46,7 +46,7 @@ grunt.initConfig({
 ### Required properties
 
 #### files
-Type: [`Grunt file configuration`](http://gruntjs.com/configuring-tasks#files)
+Type: [`Grunt file configuration`](https://gruntjs.com/configuring-tasks#files)
 
 The `src` HTML files must have the following comment(s) which are replaced by the injected JavaScript:
 
@@ -79,7 +79,7 @@ The follow configuration would inject three files into the html document at the 
 ### Optional properties
 
 #### scriptsrc
-Type: `String` || `Array` || [file glob](http://gruntjs.com/configuring-tasks#globbing-patterns)
+Type: `String` || `Array` || [file glob](https://gruntjs.com/configuring-tasks#globbing-patterns)
 
 The path of the script(s) to be injected into the page.
 

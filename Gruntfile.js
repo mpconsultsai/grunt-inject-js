@@ -1,6 +1,6 @@
 /*
  * grunt-inject-js
- * https://github.com/MarkAPhillips/grunt-inject-js
+ * https://github.com/mpconsultsai/grunt-inject-js
  *
  * Copyright (c) 2015 Mark Phillips
  * Licensed under the MIT license.
