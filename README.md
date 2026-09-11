@@ -1,4 +1,4 @@
-# grunt-inject-js v.0.1.10
+# grunt-inject-js v1.0.0
 
 [![npm version](https://badge.fury.io/js/grunt-inject-js.svg)](https://badge.fury.io/js/grunt-inject-js)
 
@@ -93,11 +93,14 @@ Type: `Boolean`
 
 If this property is set to `true` then the `scriptsrc` is ignored and all tags following the pattern
 
-`<!-- inject:[A-Za-z]* -->` are removed from the file.
+`<!-- inject:[name] -->` are removed from the file (letters, numbers, underscores, hyphens, and dots are supported).
 
 This property was added as in some environments no Javascript files need to be injected and all inject placeholders removed from the file(s).
 
 ## Release History
+
+    * 2026-09-09   v1.0.0  
+<p>Update Grunt dependencies, replace JSHint/nodeunit with ESLint and Node's test runner, and refresh MIT license packaging.</p>
 
     * 2016-07-14   v0.1.10  
 <p>Update Readme text.</p>
@@ -131,3 +134,9 @@ This property was added as in some environments no Javascript files need to be i
 
     * 2015-01-12   v0.1.0   Beta Version
 <p>Initial release.</p>
+
+## License
+
+Copyright (c) 2015 Mark Phillips
+
+Licensed under the [MIT License](LICENSE).

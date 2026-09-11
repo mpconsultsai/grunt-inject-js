@@ -1,11 +1,10 @@
 {
   "name": "grunt-inject-js",
-  "description": "Grunt Task that allows for multiple JavaScript files to injected into a file.",
-  "version": "0.1.10",
+  "description": "Grunt Task that allows for multiple JavaScript files to be injected into a file.",
+  "version": "1.0.0",
   "homepage": "https://github.com/MarkAPhillips/grunt-inject-js",
   "author": {
-    "name": "Mark Phillips",
-    "email": "work-mpconsultants@outlook.com"
+    "name": "Mark Phillips"
   },
   "repository": {
     "type": "git",
@@ -14,26 +13,23 @@
   "bugs": {
     "url": "https://github.com/MarkAPhillips/grunt-inject-js/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/MarkAPhillips/grunt-inject-js/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "engines": {
-    "node": ">= 4.4.5"
+    "node": ">=18"
   },
   "scripts": {
-    "test": "grunt test"
+    "lint": "eslint Gruntfile.js tasks test/injectjs.test.js eslint.config.js",
+    "test": "npm run lint && grunt test && node --test test/injectjs.test.js"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-nodeunit": "^1.0.0"
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.4.0",
+    "grunt": "^1.6.3",
+    "grunt-contrib-clean": "^2.0.1"
   },
   "peerDependencies": {
-    "grunt": ">=0.4.0"
+    "grunt": ">=1.0.0"
   },
   "keywords": [
     "gruntplugin"
