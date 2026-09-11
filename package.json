@@ -17,6 +17,7 @@
   "main": "tasks/index.js",
   "files": [
     "tasks",
+    "CHANGELOG.md",
     "LICENSE",
     "README.md"
   ],

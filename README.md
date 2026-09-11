@@ -1,4 +1,4 @@
-# grunt-inject-js v1.0.1
+# grunt-inject-js v1.0.2
 
 [![npm version](https://img.shields.io/npm/v/grunt-inject-js.svg)](https://www.npmjs.com/package/grunt-inject-js)
 
@@ -97,46 +97,9 @@ If this property is set to `true` then the `scriptsrc` is ignored and all tags f
 
 This property was added as in some environments no Javascript files need to be injected and all inject placeholders removed from the file(s).
 
-## Release History
+## Changelog
 
-    * 2026-09-11   v1.0.1  
-<p>Add package entry point and publish only the task files.</p>
-
-    * 2026-09-09   v1.0.0  
-<p>Update Grunt dependencies, replace JSHint/nodeunit with ESLint and Node's test runner, and refresh MIT license packaging.</p>
-
-    * 2016-07-14   v0.1.10  
-<p>Update Readme text.</p>
-
-    * 2016-07-14   v0.1.9  
-<p>Update Grunt peer dependencies and Grunt versions</p>
-
-    * 2015-01-16   v0.1.8   Beta Version
-<p>Update Readme text.</p>
-
-    * 2015-01-16   v0.1.7   Beta Version
-<p>Add clear option to task and update tests and Readme text.</p>
-
-    * 2015-01-14   v0.1.6   Beta Version
-<p>Use grunt standardised verbose messaging.</p>
-
-    * 2015-01-13   v0.1.5   Beta Version
-<p>Final updates for Readme text.</p>
-
-    * 2015-01-13   v0.1.4   Beta Version
-<p>Update Readme text and changed notifications.</p>
-
-    * 2015-01-13   v0.1.3   Beta Version
-<p>Code refactor and improved user notifications.</p>
-
-    * 2015-01-13   v0.1.2   Beta Version
-<p>Improved error handling when no files exist.</p>
-
-    * 2015-01-12   v0.1.1   Beta Version
-<p>Renamed task name from inject_js to injectjs and associated code changes.</p>
-
-    * 2015-01-12   v0.1.0   Beta Version
-<p>Initial release.</p>
+See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## License
 
