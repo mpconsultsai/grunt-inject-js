@@ -1,4 +1,4 @@
-# grunt-inject-js v1.0.2
+# grunt-inject-js v1.0.3
 
 [![npm version](https://img.shields.io/npm/v/grunt-inject-js.svg)](https://www.npmjs.com/package/grunt-inject-js)
 

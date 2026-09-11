@@ -2,9 +2,11 @@
 
 All notable changes to this project are documented in this file.
 
+## 1.0.3 - 2026-09-11
+- Move release history from the README into `CHANGELOG.md`
+
 ## 1.0.2 - 2026-09-11
 
-- Move release history from the README into `CHANGELOG.md`
 - Update documentation and package metadata links to HTTPS Grunt docs
 - Point homepage, repository, and bugs URLs at `mpconsultsai/grunt-inject-js`
 - Switch the npm version badge to Shields.io
