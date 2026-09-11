@@ -1,7 +1,7 @@
 {
   "name": "grunt-inject-js",
   "description": "Grunt Task that allows for multiple JavaScript files to be injected into a file.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/MarkAPhillips/grunt-inject-js",
   "author": {
     "name": "Mark Phillips"
@@ -14,6 +14,12 @@
     "url": "https://github.com/MarkAPhillips/grunt-inject-js/issues"
   },
   "license": "MIT",
+  "main": "tasks/index.js",
+  "files": [
+    "tasks",
+    "LICENSE",
+    "README.md"
+  ],
   "engines": {
     "node": ">=18"
   },

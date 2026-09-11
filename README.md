@@ -1,4 +1,4 @@
-# grunt-inject-js v1.0.0
+# grunt-inject-js v1.0.1
 
 [![npm version](https://badge.fury.io/js/grunt-inject-js.svg)](https://badge.fury.io/js/grunt-inject-js)
 
@@ -98,6 +98,9 @@ If this property is set to `true` then the `scriptsrc` is ignored and all tags f
 This property was added as in some environments no Javascript files need to be injected and all inject placeholders removed from the file(s).
 
 ## Release History
+
+    * 2026-09-11   v1.0.1  
+<p>Add package entry point and publish only the task files.</p>
 
     * 2026-09-09   v1.0.0  
 <p>Update Grunt dependencies, replace JSHint/nodeunit with ESLint and Node's test runner, and refresh MIT license packaging.</p>
